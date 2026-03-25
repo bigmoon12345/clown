@@ -28,6 +28,7 @@
         <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest text-gray-400 ml-auto mr-8">
             <a href="#vision" data-i18n="nav-vision" class="hover:text-purple-400">愿景</a>
             <a href="https://app.uniswap.org/#/swap?outputCurrency=0x9a97dbe76a19fad9cbe37125ced0f3a124d74444" target="_blank" data-i18n="nav-buy" class="hover:text-purple-400">购买</a>
+            <a href="https://four.meme/token/0x9a97dbe76a19fad9cbe37125ced0f3a124d74444" target="_blank" data-i18n="nav-four" class="hover:text-purple-400">four.meme</a>
             <a href="#sponsor" data-i18n="nav-sponsor" class="hover:text-purple-400">赞助</a>
         </div>
         
@@ -47,10 +48,15 @@
 
         <div class="flex flex-col items-center space-y-6">
             <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                <a href="https://app.uniswap.org/#/swap?outputCurrency=0x9a97dbe76a19fad9cbe37125ced0f3a124d74444" target="_blank" 
+                <a href="https://app.uniswap.org/explore/tokens/bnb/0x9A97dBe76a19fAD9cbe37125CEd0F3A124d74444?inputCurrency=NATIVE" target="_blank" 
                    data-i18n="btn-swap"
                    class="bg-purple-600 px-10 py-4 rounded-lg font-bold text-lg hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] transition transform hover:-translate-y-1">
                     在 Uniswap 交易
+                </a>
+                <a href="https://four.meme/token/0x9a97dbe76a19fad9cbe37125ced0f3a124d74444" target="_blank"
+                   data-i18n="btn-four"
+                   class="bg-yellow-500 text-black px-10 py-4 rounded-lg font-bold text-lg hover:shadow-[0_0_40px_rgba(250,204,21,0.4)] transition transform hover:-translate-y-1">
+                    在 four.meme 交易
                 </a>
                 <button onclick="copyText('0x9a97dbe76a19fad9cbe37125ced0f3a124d74444', 'ca-btn-text')" class="glass px-10 py-4 rounded-lg font-bold text-lg flex items-center space-x-2">
                     <span id="ca-btn-text" data-i18n="btn-copy-ca">复制合约地址</span>
@@ -104,8 +110,9 @@
         const i18n = {
             zh: {
                 'nav-vision': '愿景', 'nav-buy': '购买', 'nav-sponsor': '赞助', 'btn-connect': '连接钱包',
+                'nav-four': 'four.meme',
                 'main-title': "Fool's Paradigm", 'main-desc': '用最硬核的区块链技术，承载最纯粹的无厘头共识。',
-                'btn-swap': '在 Uniswap 交易', 'btn-copy-ca': '复制合约地址', 'ca-label': '合约',
+                'btn-swap': '在 Uniswap 交易', 'btn-four': '在 four.meme 交易', 'btn-copy-ca': '复制合约地址', 'ca-label': '合约',
                 'feat1-t': 'P.O.H 共识', 'feat1-d': 'Proof of Humor：代币价值由社区的“含笑量”决定。',
                 'feat2-t': '动态零赋能', 'feat2-d': '无应用、无落地。从源头上杜绝黑客攻击。',
                 'feat3-t': '非对称通缩', 'feat3-d': '每年4月1日，心理溢价会莫名其妙升高。',
@@ -116,8 +123,9 @@
             },
             en: {
                 'nav-vision': 'Vision', 'nav-buy': 'Buy Now', 'nav-sponsor': 'Sponsor', 'btn-connect': 'Connect Wallet',
+                'nav-four': 'four.meme',
                 'main-title': "The $FOOL Standard", 'main-desc': 'Hardcore Tech for Pure, Unadulterated Nonsense.',
-                'btn-swap': 'Swap on Uniswap', 'btn-copy-ca': 'Copy Contract', 'ca-label': 'CA',
+                'btn-swap': 'Swap on Uniswap', 'btn-four': 'Trade on four.meme', 'btn-copy-ca': 'Copy Contract', 'ca-label': 'CA',
                 'feat1-t': 'P.O.H Mechanism', 'feat1-d': 'Proof of Humor: Driven by the community Laughter Index.',
                 'feat2-t': 'Zero-Utility', 'feat2-d': 'No utility. Hack-proof because there is nothing to steal.',
                 'feat3-t': 'Irrational Deflation', 'feat3-d': 'Every April 1st, FOMO peaks as collective sanity temporary leaves.',
